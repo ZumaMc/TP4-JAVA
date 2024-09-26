@@ -191,6 +191,34 @@ public class Main {
                 }
             }
         }
-
+    if (ejercicios==5){
+        String[][] golosinas = {
+                {"KitKat", "32", "10"},
+                {"Chicles", "2", "50"},
+                {"Caramelos de Menta", "2", "50"},
+                {"Huevo Kinder", "25", "10"},
+                {"Chetoos", "30", "10"},
+                {"Twix", "26", "10"},
+                {"M&M'S", "35", "10"},
+                {"Papas Lays", "40", "20"},
+                {"Milkybar", "30", "10"},
+                {"Alfajor Tofi", "20", "15"},
+                {"Lata Coca", "50", "20"},
+                {"Chitos", "45", "10"}
+        };
+    }
+        int prender=0;
+        while (prender!=4) {
+            System.out.println("Menú de la maquina expendedora:");
+            System.out.println("1. Pedir golosina");
+            System.out.println("2. Mostrar golosinas");
+            System.out.println("3. Rellenar golosinas (requiere contraseña)");
+            System.out.println("4. Apagar maquina");
+            System.out.print("Selecciona una opcion: ");
+            int opcion= sc.nextInt();
+            if (opcion==1) {
+                
+            }
+    }
     }
 }
